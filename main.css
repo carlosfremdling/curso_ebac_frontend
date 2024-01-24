@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+form {
+    margin-top: 24px;
+    width: 600px;
+}
+
+form input, button {
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+
+form input {
+    margin: 8px 0;
+}
+
+form button {
+    margin-top: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: blueviolet;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+}
